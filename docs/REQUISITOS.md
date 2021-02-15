@@ -1,6 +1,6 @@
 Requisitos:
 
-1 - deve haver uma entidade CLIENTE
+1 - deve haver uma entidade CLIENTE <br/>
 2 - deve haver uma entidade PRATO
 3 - deve haver uma entidade PEDIDO
 4 - deve fazer relatórios (entidade RELATÓRIO)
