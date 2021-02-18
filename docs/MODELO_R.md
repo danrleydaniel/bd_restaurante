@@ -1,6 +1,6 @@
 <h1>MODELO RELACIONAL</h1>
 <br>
-cliente(**codigo**,cpf,forma_pagamento,nome)
+cliente(<strong>codigo</strong>,cpf,forma_pagamento,nome)
 <br>
 pedido(**codigo**,data,valor,mesa)
 <br>
