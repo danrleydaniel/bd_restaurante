@@ -1,15 +1,15 @@
 <h1>MODELO RELACIONAL</h1>
 <br>
-cliente(<strong>codigo</strong>,cpf,forma_pagamento,nome)
+cliente(<strong>codigo</strong> , cpf , forma_pagamento , nome)
 <br>
-pedido(**codigo**,data,valor,mesa)
+pedido(<strong>codigo</strong> , data , valor , mesa)
 <br>
-item_pedido(**codigo**,quantidade,descricao)
+item_pedido(<strong>codigo</strong> , quantidade , descricao)
 <br>
-prato(**codigo**,nome,valor,ingredientes)
+prato(<strong>codigo</strong> , nome , valor , ingredientes)
 <br>
-pagamento(**codigo**,forma,valor)
+pagamento(<strong>codigo</strong> , forma , valor)
 <br>
-relatorio(**codigo**,hora,data)
+relatorio(<strong>codigo</strong> , hora,data)
 <br>
-troca(**codigo**,motivo_troca)
+troca(<strong>codigo</strong> , motivo_troca)
