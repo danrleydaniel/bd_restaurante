@@ -64,3 +64,39 @@ VALUES
 (
 5, '25/04/2021', 2.00, 11
 );
+
+INSERT INTO Prato(Codigo, Nome, Valor, Ingredientes)
+VALUES
+(
+1, 'Água', 2.00, 'Garrafa de água'
+);
+
+
+INSERT INTO Prato(Codigo, Nome, Valor, Ingredientes)
+VALUES
+(
+2, 'Sanduíche de frango', 7.00, 'Pão, queijo, alface, tomate, frango desfiado'
+);
+
+
+INSERT INTO Prato(Codigo, Nome, Valor, Ingredientes)
+VALUES
+(
+3, 'Macarronada', 9.00, 'Macarrão, molho de tomate, queijo ralado, carne moída'
+);
+
+
+INSERT INTO Prato(Codigo, Nome, Valor, Ingredientes)
+VALUES
+(
+4, 'Espetinho misto', 5.00, 'Carne bovina, carne suína, frango'
+);
+
+
+INSERT INTO Prato(Codigo, Nome, Valor, Ingredientes)
+VALUES
+(
+5, 'Petit Gateau', 30.00, 'Farinha premium, chocolate belga, creme de nozes australiano, açúcar mascavo'
+);
+
+
