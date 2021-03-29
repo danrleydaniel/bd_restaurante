@@ -99,4 +99,37 @@ VALUES
 5, 'Petit Gateau', 30.00, 'Farinha premium, chocolate belga, creme de nozes australiano, açúcar mascavo'
 );
 
+INSERT INTO Pagamento(Codigo, Forma, Valor)
+VALUES
+(
+1, 'Cŕedito', 23.00
+);
+
+
+INSERT INTO Pagamento(Codigo, Forma, Valor)
+VALUES
+(
+2, 'Cŕedito', 52.50
+);
+
+
+INSERT INTO Pagamento(Codigo, Forma, Valor)
+VALUES
+(
+3, 'Espécie', 19.00
+);
+
+
+INSERT INTO Pagamento(Codigo, Forma, Valor)
+VALUES
+(
+4, 'Débito', 20.00
+);
+
+
+INSERT INTO Pagamento(Codigo, Forma, Valor)
+VALUES
+(
+5, 'Débito', 32.00
+);
 
