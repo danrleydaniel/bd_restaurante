@@ -18,3 +18,9 @@ Nome VARCHAR(50),
 Valor DOUBLE,
 Ingredientes VARCHAR(100)
 );
+
+CREATE TABLE Pagamento(
+Codigo INT PRIMARY KEY,
+Forma VARCHAR(11),
+Valor DOUBLE
+);
