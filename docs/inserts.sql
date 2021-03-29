@@ -171,3 +171,70 @@ VALUES
 5, 'Débito', 32.00
 );
 
+INSERT INTO Relatorio(Codigo, Hora, Data)
+VALUES
+(
+1, 19:10:00, '17/04/2021'
+);
+
+
+INSERT INTO Relatorio(Codigo, Hora, Data)
+VALUES
+(
+2, 19:22:43, '17/04/2021'
+);
+
+
+INSERT INTO Relatorio(Codigo, Hora, Data)
+VALUES
+(
+3, 18:30:12, '18/04/2021'
+);
+
+
+INSERT INTO Relatorio(Codigo, Hora, Data)
+VALUES
+(
+4, 21:21:00, '18/04/2021'
+);
+
+
+INSERT INTO Relatorio(Codigo, Hora, Data)
+VALUES
+(
+5, 20:12:32, '20/04/2021'
+);
+
+INSERT INTO Troca(Codigo, Motivo_troca)
+VALUES
+(
+1, 'Passou do prazo de validade'
+);
+
+
+INSERT INTO Troca(Codigo, Motivo_troca)
+VALUES
+(
+2, 'Pedido errado'
+);
+
+
+INSERT INTO Troca(Codigo, Motivo_troca)
+VALUES
+(
+3, 'Esfriou antes de chegar a mesa'
+);
+
+
+INSERT INTO Troca(Codigo, Motivo_troca)
+VALUES
+(
+4, 'Veio sem molho'
+);
+
+
+INSERT INTO Troca(Codigo, Motivo_troca)
+VALUES
+(
+5, 'Veio para a mesa errada'
+);
