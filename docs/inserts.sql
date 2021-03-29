@@ -58,12 +58,49 @@ VALUES
 4, '23/04/2021', 75.00, 15
 );
 
-
 INSERT INTO Pedido(Codigo, Data, Valor, Mesa)
 VALUES
 (
 5, '25/04/2021', 2.00, 11
 );
+
+
+INSERT INTO Item_pedido(Codigo, Quantidade, Descricao)
+VALUES
+(
+1, 2, 'Água'
+);
+
+
+INSERT INTO Item_pedido(Codigo, Quantidade, Descricao)
+VALUES
+(
+2, 1, 'Sanduiche de frango'
+);
+
+
+
+INSERT INTO Item_pedido(Codigo, Quantidade, Descricao)
+VALUES
+(
+3, 1, 'Porção de batatas fritas'
+);
+
+
+INSERT INTO Item_pedido(Codigo, Quantidade, Descricao)
+VALUES
+(
+4, 3, 'Refrigerante de cola'
+);
+
+
+INSERT INTO Item_pedido(Codigo, Quantidade, Descricao)
+VALUES
+(
+5, 1, 'Pizza tamanho família'
+);
+
+
 
 INSERT INTO Prato(Codigo, Nome, Valor, Ingredientes)
 VALUES
@@ -98,6 +135,7 @@ VALUES
 (
 5, 'Petit Gateau', 30.00, 'Farinha premium, chocolate belga, creme de nozes australiano, açúcar mascavo'
 );
+
 
 INSERT INTO Pagamento(Codigo, Forma, Valor)
 VALUES
