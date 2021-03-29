@@ -27,3 +27,40 @@ VALUES
 (
 5, '26006335450', 'crédito', 'Marcelo'
 );
+
+
+
+
+INSERT INTO Pedido(Codigo, Data, Valor, Mesa)
+VALUES
+(
+1, '19/04/2021', 10.00, 12
+);
+
+
+INSERT INTO Pedido(Codigo, Data, Valor, Mesa)
+VALUES
+(
+2, '19/04/2021', 7.00, 7
+);
+
+
+INSERT INTO Pedido(Codigo, Data, Valor, Mesa)
+VALUES
+(
+3, '21/04/2021', 25.00, 8
+);
+
+
+INSERT INTO Pedido(Codigo, Data, Valor, Mesa)
+VALUES
+(
+4, '23/04/2021', 75.00, 15
+);
+
+
+INSERT INTO Pedido(Codigo, Data, Valor, Mesa)
+VALUES
+(
+5, '25/04/2021', 2.00, 11
+);
