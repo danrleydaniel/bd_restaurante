@@ -12,6 +12,13 @@ Valor DOUBLE,
 Mesa INT
 );
 
+CREATE TABLE Item_pedido(
+Codigo INT PRIMArY KEY,
+Quantidade INT,
+Descricao VARCHAR(100)
+);
+
+
 CREATE TABLE Prato(
 Codigo INT PRIMARY KEY,
 Nome VARCHAR(50),
