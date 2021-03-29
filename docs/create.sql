@@ -12,3 +12,9 @@ Valor DOUBLE,
 Mesa INT
 );
 
+CREATE TABLE Prato(
+Codigo INT PRIMARY KEY,
+Nome VARCHAR(50),
+Valor DOUBLE,
+Ingredientes VARCHAR(100)
+);
