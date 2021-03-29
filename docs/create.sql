@@ -31,3 +31,14 @@ Codigo INT PRIMARY KEY,
 Forma VARCHAR(11),
 Valor DOUBLE
 );
+
+CREATE TABLE Relatorio(
+Codigo INT PRIMARY KEY,
+Hora TIME,
+Data VARCHAR(11)
+);
+
+CREATE TABLE Troca(
+Codigo INT PRIMARY KEY,
+Motivo_troca VARCHAR(100)
+);
