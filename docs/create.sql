@@ -4,3 +4,11 @@ CPF VARCHAR(12),
 Forma_pagamento VARCHAR(10),
 Nome VARCHAR(50)
 );
+
+CREATE TABLE Pedido(
+Codigo INT PRIMARY KEY,
+Data VARCHAR(11),
+Valor DOUBLE,
+Mesa INT
+);
+
